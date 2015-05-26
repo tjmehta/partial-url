@@ -1,0 +1,41 @@
+{
+  "name": "partial-url",
+  "version": "1.0.0",
+  "description": "Parse or format a partial url (more flexible that node's url.parse)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -t 100",
+    "test-watch": "nodemon -x 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmehta/partial-url.git"
+  },
+  "keywords": [
+    "url",
+    "partial",
+    "parse",
+    "format",
+    "part",
+    "hostname",
+    "host",
+    "path"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/partial-url/issues"
+  },
+  "homepage": "https://github.com/tjmehta/partial-url#readme",
+  "dependencies": {
+    "101": "^1.0.0"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.9.0",
+    "nodemon": "^1.3.7"
+  }
+}

@@ -1,2 +1,2 @@
 # partial-url
-parse and format a url or partial url (more powerful that node's url.parse)
+Parse or format a partial url (more flexible that node's url.parse)
